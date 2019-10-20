@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Praca domowa.</title>
+</head>
+<body>
+    <p>
+        <form action="Imie">
+            Imie:
+            <input type="text" name="Imie">
+        </form>
+    </p>
+
+
+    <p>
+        <form action="Nazwisko">
+            Nazwisko:
+            <input type="text" name="Nazwisko">
+        </form>
+    </p>
+
+    <p>
+        <form action="Data">
+            Data urodzenia:
+            <input type="text" name="Data">
+        </form>
+    </p>
+
+
+    <p>
+       <label> Opis:
+        <textarea rows="5" cols="20">
+
+        </textarea>
+        </label>
+    </p>
+    <p>
+        Płeć:&nbsp; &nbsp;
+        Kobieta<input type="radio" name="Płeć" value="kobieta">&nbsp;
+        Mężczyzna<input type="radio" name="Płeć" value="mężczyzna">
+    </p>
+    <p><label>
+        Wydział: &nbsp;
+        <select name=" Wydzial" multiple size="3">
+            <option>WIMII</option>
+            <option>IISI</option>
+            <option>KI</option>
+
+
+
+        </select>
+        </label>
+
+
+</body>
+</html>
